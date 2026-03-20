@@ -53,7 +53,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
-import static org.thingsboard.server.service.edge.rpc.EdgeGrpcSession.RATE_LIMIT_REACHED;
+import static org.thingsboard.server.service.edge.rpc.session.EdgeGrpcSession.RATE_LIMIT_REACHED;
 
 @Service
 @Slf4j
