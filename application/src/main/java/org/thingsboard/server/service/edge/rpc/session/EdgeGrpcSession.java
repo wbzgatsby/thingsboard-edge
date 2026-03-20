@@ -83,7 +83,7 @@ import java.util.function.BiConsumer;
 public class EdgeGrpcSession implements EdgeSession {
 
     private static final int MAX_DOWNLINK_ATTEMPTS = 3;
-    private static final String RATE_LIMIT_REACHED = "Rate limit reached";
+    public static final String RATE_LIMIT_REACHED = "Rate limit reached";
 
     private final EdgeGrpcSessionManager parentManagerRef;
     private final EdgeContextComponent ctx;
